@@ -1,0 +1,100 @@
+.list_places{
+	width: 94vh; 
+	height: 20vh; 
+  	margin: 1vh; 
+  	margin-top: 3vh;	   
+}
+ 
+.visited{
+	background-color: #F0FFF0;
+
+}
+.notvisited{
+	background-color: #FFE4E1;
+	color: grey;
+	text-decoration:line-through;
+}
+ul{
+	margin: 0;
+	margin-top: 1%;
+  	padding: 0;}	
+li{
+  	padding:0; 
+  	box-shadow:1px 1px 6px black;
+}
+.view{
+	height: 25vh;
+}
+.checkbox{
+	float: left;
+	margin-top: 10vh;
+	display: inline-block; 
+  	width: 2em;
+  	height:2em;    
+}
+.viewplace{
+	float: right;
+	margin: 1%;    
+	font:  15px Tahoma, Geneva, sans-serif;
+	font-style:normal;
+	color:#ffffff; 
+	background: #6495ED;
+	border:0px solid #ffffff; 
+	border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px; 
+	padding:10px 15px;  
+	outline: none;
+}
+.viewplace:hover{ 
+	background: #87CEFA;
+}
+.viewplace:active{
+ 	background: #4169E0;
+}
+.destroy{
+	float: right;
+	margin: 1%;   
+	font:  15px Tahoma, Geneva, sans-serif;
+	font-style:normal;
+	color:#ffffff;
+	background:#d14949;
+	border:0px solid #ffffff; 
+	border-radius:5px 5px 5px 5px;
+	-moz-border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px; 
+	padding:10px 15px;
+	outline: none;  
+}
+.destroy:hover{  
+	background: #CD5C5C; 
+}
+.destroy:active{  
+ 	background:#8B0000;
+}
+ .btn{
+ 	float:right;
+ 	width: 30%;      
+ 	margin-top: 10vh; 
+ }
+ .tbl{
+ 	float: left; 
+ 	width: 55%;  
+ 	padding-top: 8%;
+ 	padding-left: 1%; 
+ }
+ .check{
+ 	float:left;
+ 	width: 6%; 
+ 	padding-left: 1%;
+ }
+ 
+ tr {
+ 	font-family: 'Avenir',  sans-serif; 
+ 	letter-spacing: 0.05em;
+ }
+ td{ 
+ 	padding-top:0.5em;
+ 	border-bottom: 1px solid lightgray;
+ }
+ 

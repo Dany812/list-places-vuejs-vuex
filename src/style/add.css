@@ -1,0 +1,56 @@
+.addplace{
+  width: 94vh; 
+  height: 35vh; 
+  margin:1vh;
+  margin-top: 0%;
+  box-shadow:1px 1px 6px black;
+}
+.add_btn{
+  float: right;
+  margin: 1%;    
+  font:  15px Tahoma, Geneva, sans-serif;
+  font-style:normal;
+  color:#ffffff; 
+  background: #6495ED;
+  border:0px solid #ffffff; 
+  border-radius:5px 5px 5px 5px;
+  -moz-border-radius:5px 5px 5px 5px;
+  -webkit-border-radius:5px 5px 5px 5px; 
+  padding:10px 15px;  
+  outline: none;
+}
+.add_btn:hover{ 
+  background: #87CEFA;
+}
+.add_btn:active{
+  background: #4169E0;
+}
+ 
+.addplace ul { 
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+    font:   15px Tahoma, Geneva, sans-serif;
+}
+.addplace li{
+    padding:1vh;
+    border-bottom:1px solid #eee; 
+}
+.addplace label {
+    width:15vh;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+.addplace .new-place {
+    height:20px;
+    width:70%;
+    padding:5px 8px;
+
+}
+h3{
+  font:   17px Tahoma, Geneva, sans-serif;
+  color: #3F97D3;
+}
